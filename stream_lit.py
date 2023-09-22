@@ -23,11 +23,11 @@ class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
 
 # Cargar el modelo
 RandomForest =joblib.load("model_g.pkl")
-LinearRegression =joblib.load("linearRegressionModel.pkl")
-DecisionTree =joblib.load("treeRegressorModel.pkl")
+LinearRegression =joblib.load("model_linear.pkl")
+DecisionTree =joblib.load("model_decision.pkl")
 
 
-st.title('Modelo_Grid')
+st.title('Modelo_RandomSearch')
 
 # Asumiendo que el modelo necesita dos características (puedes adaptar esto según tus necesidades)
 
