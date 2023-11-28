@@ -3,9 +3,9 @@ from joblib import load
 import numpy as np
 
 # Loading model
-model_lr = load('/home/torrescayo/ML/finalized_model.sav')
-model_rf = load('/home/torrescayo/ML/best_random_forest_model.sav')
-model_svm = load('/home/torrescayo/ML/best_svm_model.sav')
+model_lr = load('finalized_model.sav')
+model_rf = load('best_random_forest_model.sav')
+model_svm = load('best_svm_model.sav')
 
 # Tu código Streamlit aquí...
 
